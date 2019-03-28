@@ -1,0 +1,232 @@
+/*
+Title: Dynamic Html5 Website
+Author: Paul Akolade
+Organisation: Eaglion Solutions/www.eaglion.com.ng
+Date: 01-09-2018
+
+*{
+    margin: 0;
+    padding: 0;
+}*/
+
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+     /* same as above, another to write your css*/
+    /*font: normal 16px Arial, Helvetica, sans-serif;*/
+
+    line-height: 1.6em;
+    margin: 0;
+}
+
+h1{
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;  
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+
+}
+
+.button:hover{
+    background: red;
+    color: white;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.clr{
+    clear: both; 
+}
+
+.container{
+    width: 80%;
+    /* same as the width property above, the % alllows the class to
+    be rsponsive.
+    width: 500px;
+    */
+    margin: auto;
+}
+ 
+.div-1{
+    background-color: #333333;
+    color: #ffffff;
+
+    border-right: 5px royalblue;
+    border-left: 5px royalblue;
+    border-top: 5px royalblue;
+    border-bottom: 5px royalblue;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+     /* Same as above
+    border: 5px red solid;
+    border-width:3px;
+    border-bottom-width:10px;
+    */
+    border: 5px red solid;
+
+    padding-top: 20px;
+
+    margin: 20px 0; 
+}
+
+.div-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em; 
+}
+
+.div-2{
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 2px #ccc solid;
+    padding:  10px;
+    border-radius: 15px; 
+    margin: auto;
+    width: 80%;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 20px;
+    list-style: square;
+    list-style: none;
+    margin: 20px;
+}
+
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('eag.tif');
+}
+
+.gd-form{
+    padding: 20px;
+    width: 80%;
+    align-content: center;
+    margin-left: 100px;
+}
+
+.gd-form .form-group{
+   padding-bottom: 15px;  
+}
+
+.gd-form label{
+    display: block;
+}
+
+.gd-form input[type="text"], .gd-form textarea{
+     padding: 8px;
+     width: 100%;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    background-color: brown;
+    color: #ccc; 
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #ccc;
+    padding: 15px;
+    box-sizing: border-box; 
+    margin: auto;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative;
+    background-image: url("laundry.jpg");
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.do-list li:first-child{
+      background: red;
+}
+
+.do-list li:last-child{
+    background: red;
+}
+
+.do-list li:nth-child(5){
+    background: yellow;
+}
+
+.do-list li:nth-child(even){
+    background: goldenrod;
+}
